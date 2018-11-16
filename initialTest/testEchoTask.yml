@@ -9,4 +9,9 @@ inputs:
 - name: atmoshGit
 
 run:
-  path: atmoshGit/initialTest/echoScript.sh
+  path: echo
+  args:
+  - hello world
+
+
+#  path: atmoshGit/initialTest/echoScript.sh
