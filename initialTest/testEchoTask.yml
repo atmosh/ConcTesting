@@ -6,7 +6,7 @@ image_resource:
   source: {repository: busybox}
 
 inputs:
-- name: initialTest
+- name: atmoshGit
 
 run:
   path: ./initialTest/echoScript.sh
