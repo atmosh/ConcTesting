@@ -9,4 +9,4 @@ inputs:
 - name: testingDirFunc
 
 run:
-  path: ./testingDirFunc/echoScript.sh
+  path: ./initialTest/echoScript.sh
