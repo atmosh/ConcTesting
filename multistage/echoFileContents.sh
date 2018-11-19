@@ -9,7 +9,7 @@ readOutFiles(){
   echo "-------"
   
   
-  ls $1 | cat
+  ls $dir1 | cat
 
 }
 
