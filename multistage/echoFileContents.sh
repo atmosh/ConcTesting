@@ -3,12 +3,22 @@
 echo "file has been called"
 
 dir1=$1
-#dir2=$2
+dir2=$2
 
-readOutFiles(){
-  echo "In here now"
-  ls $1
+#readOutFiles(){
+#  echo "-------"
+  
+  
+#  ls $dir1 | xargs echo
 
-}
+#}
 
-readOutFiles $dir1
+
+
+echo "-----"
+ls | xargs echo
+echo "-----"
+
+ls $dir1
+echo "===="
+ls secondOutput
