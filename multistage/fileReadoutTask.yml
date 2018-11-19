@@ -6,11 +6,11 @@ image_resource:
   source: {repository: bushbox} 
 
 inputs:
-  #This is the repo where we are pulling the tasks from
-  -name: taskRepo  
-  #These are the outputs from the previous task
-  -name: firstOutput
-  -name: secondOutput
+#This is the repo where we are pulling the tasks from
+- name: taskRepo  
+#These are the outputs from the previous task
+- name: firstOutput
+- name: secondOutput
 
 run:
   path: taskRepo/multistage/echoFileContents.sh
