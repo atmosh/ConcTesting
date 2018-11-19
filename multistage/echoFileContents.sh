@@ -17,5 +17,7 @@ dir2=$2
 
 echo "-----"
 
-ls $dir1 | xargs echo
+ls | xargs echo
+
+ls $dir1
 
