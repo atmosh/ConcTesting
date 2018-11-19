@@ -5,14 +5,17 @@ echo "file has been called"
 dir1=$1
 dir2=$2
 
-readOutFiles(){
-  echo "-------"
+#readOutFiles(){
+#  echo "-------"
   
   
-  ls $dir1 | xargs echo
+#  ls $dir1 | xargs echo
 
-}
+#}
 
-readOutFiles $dir1
 
-readOutFiles $dir2
+
+echo "-----"
+
+ls $dir1 | xargs echo
+
