@@ -9,7 +9,7 @@ readOutFiles(){
   echo "-------"
   
   
-  ls $1 | echo
+  ls $1 | cat
 
 }
 
