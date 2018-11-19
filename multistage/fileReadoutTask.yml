@@ -15,4 +15,5 @@ inputs:
 
 run:
   path: taskRepo/multistage/echoFileContents.sh
+  args: firstOutput
   
