@@ -16,8 +16,9 @@ dir2=$2
 
 
 echo "-----"
-
 ls | xargs echo
+echo "-----"
 
 ls $dir1
-
+echo "===="
+ls secondOutput
