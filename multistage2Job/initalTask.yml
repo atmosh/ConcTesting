@@ -1,0 +1,17 @@
+---
+#In this task will be the inital creation of the two output files 
+platform: linux
+
+image_resource:
+  type: docker-image
+  source: {repository: busybox}
+
+inputs:
+#This is the repo where we are pulling the tasks from
+- name: pipelineRepo
+#These are the outputs from the previous task
+- name: firstOutput
+- name: secondOutput
+
+run:
+  path: taskRepo/:shell1_Create2Outputs.sh
