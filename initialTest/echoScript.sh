@@ -6,6 +6,6 @@ ls
 echo "------"
 
 echo "deploy with name $redisDeploymentName"
-bosh deploy -d $redisDeploymentName redis-boshrelease/manifests/redis.yml
+bosh deploy -d $redisDeploymentName redisDeploymentGit/manifests/redis.yml
 
 echo "hit the END!!!!!!!"
