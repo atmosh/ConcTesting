@@ -1,3 +1,6 @@
 #!/bin/sh
 
-echo "This script is being called within the same level directory"
+echo "entered script ok!!!!"
+bosh deploy -d $redisDeploymentName redisDeploymentGit/manifests/redis.yml
+
+echo "hit the END!!!!!!!"
